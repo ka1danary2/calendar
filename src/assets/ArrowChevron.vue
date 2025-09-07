@@ -15,7 +15,7 @@
 <script setup lang="ts">
 
 interface Props {
-	color: string
+	color?: string
 }
 
 defineProps<Props>()
